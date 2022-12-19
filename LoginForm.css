@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(photos/Photos/pexels-pixabay-531880.jpg);
+    background-size:auto;
+    font-family: sans-serif;
+    background-position: center;
+
+}
+.loginbox{ 
+    width: 320;
+    height: 420;
+    background-color: rgb(2, 12, 27);
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translate(90%, -30%);
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 3em;
+}
+h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    justify-content: center;
+    color: rgb(85, 255, 0);
+    text-align: center;
+    margin:5px;
+    padding: 0 0 10px;
+
+}
+.user-login{
+    margin: 30px 30px;
+    padding-left:0px;
+}
+p{
+    padding: 0;
+    font-weight: bold;
+    margin:0;
+    
+}
+input  {
+    width: 100%;
+    margin-bottom: 30px;
+    border:none;
+    padding: 10px;
+    border-bottom: 2px solid green;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    font-size: medium;
+
+}
+.btn{
+    width: 80%;
+    float: left;
+    font-size: 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: aquamarine;
+    font-weight: bold;
+    margin: 20px;
+    padding: 5px;
+
+}
+.btn:hover{
+    color:rgb(20, 15, 37);
+    background-color: rgb(163, 108, 14);
+    transition: .50s;
+    cursor: pointer;
+}
+a{
+    color:darkgrey;
+    padding: 2px;
+    text-align: left;
+    font-size: small;
+}
+a:hover{
+    cursor: pointer;
+    color:goldenrod ;
+    transition: 0.5s;
+}
+#account-create{
+    display:none;
+
+}
